@@ -11,6 +11,7 @@ documentation = "https://docs.rs/legacy_pcap_file"
 repository = "https://github.com/dovreshef/legacy_pcap_file"
 exclude = [
     "test_data/*",
+    ".github/**/*",
 ]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
