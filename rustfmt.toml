@@ -1,0 +1,7 @@
+edition = "2021"
+version = "Two"
+unstable_features = true
+imports_layout = "Vertical"
+struct_lit_single_line = true
+use_field_init_shorthand = true
+imports_granularity = "Crate"

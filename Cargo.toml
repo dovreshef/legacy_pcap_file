@@ -1,0 +1,23 @@
+[package]
+name = "legacy_pcap_file"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A crate to read and write legacy Pcap file format"
+readme = "README.md"
+keywords = ["pcap", "parse", "read", "write"]
+categories = ["encoding", "parsing"]
+documentation = "https://docs.rs/legacy_pcap_file"
+repository = "https://github.com/dovreshef/legacy_pcap_file"
+exclude = [
+    "test_data/*",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+tempfile = " 3.3"
+parameterized = "1"
+hex = "0.4"
