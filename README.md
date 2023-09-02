@@ -1,6 +1,9 @@
 # Legacy Pcap parsing & writing
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dovreshef/legacy_pcap_file/Rust)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/dovreshef/legacy_pcap_file/.github%2Fworkflows%2Frust.yml)
+![docs.rs](https://img.shields.io/docsrs/legacy_pcap_file)
+![Crates.io](https://img.shields.io/crates/l/legacy_pcap_file)
+![Crates.io](https://img.shields.io/crates/v/legacy_pcap_file)
 
 A modified version of [courvoif/pcap-file](https://github.com/courvoif/pcap-file) that supports only
 the old legacy pcap file format (`.pcap` extension).
